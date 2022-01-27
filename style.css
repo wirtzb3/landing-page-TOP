@@ -24,21 +24,13 @@ body {
     gap: 15px;
 }
 
-.hero-margin-left {
-    margin-left: 70px;
-}
-
-.hero-margin-right {
-    margin-right: 70px;
-}
-
 .website-awesome-section {
     display: flex;
     background-color: #1F2937;
     padding-top: 100px;
     padding-bottom: 100px;
-    justify-content: center;
     gap: 30px;
+    justify-content: space-between;
 }
 
 .title {
@@ -55,14 +47,22 @@ body {
 .text-and-button-container {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 460px;
     gap: 8px;
 }
 
 .hero-image {
-    width: 40%;
+    width: 500px;
     background-color: gray;
 
+}
+
+.hero-left-margin {
+    margin-left: 100px;
+}
+
+.hero-right-margin {
+    margin-right: 100px;
 }
 
 a {
@@ -74,7 +74,6 @@ a {
 p {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 10px;
     font-weight: bold;
 }
 
@@ -87,4 +86,5 @@ button {
     border: none;
     margin-top: 5px;
     font-weight: bold;
+    font-size: 16px;
 }
