@@ -74,17 +74,47 @@ a {
 p {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    width: 120px;
-    height: 40px;
+    width: 125px;
+    height: 37px;
     border-radius: 12px;
     border: none;
     margin-top: 5px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.img-placeholder {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.caption-text {
+    width: 150px;
+    padding-left: 2px;
+    padding-top: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.some-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
