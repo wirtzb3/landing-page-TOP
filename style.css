@@ -53,8 +53,6 @@ body {
 
 .hero-image {
     width: 500px;
-    background-color: gray;
-
 }
 
 .hero-left-margin {
@@ -63,6 +61,20 @@ body {
 
 .hero-right-margin {
     margin-right: 100px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
 }
 
 a {
@@ -89,6 +101,11 @@ button {
     font-size: 16px;
 }
 
+.quote-name {
+    color: black;
+    text-align: right;
+}
+
 .img-placeholder {
     height: 150px;
     width: 150px;
@@ -100,14 +117,15 @@ button {
     width: 150px;
     padding-left: 2px;
     padding-top: 5px;
-    font-size: 18px;
-    color: #E5E7EB;
+    font-size: 16px;
+    color: #1F2937;
 }
 
 .information-container {
     display: flex;
     gap: 40px;
     justify-content: center;
+    margin-bottom: 125px;
 }
 
 .some-title {
@@ -117,4 +135,30 @@ button {
     text-align: center;
     margin-top: 65px;
     margin-bottom: 65px;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px 50px 120px;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.action-title {
+    margin: 0px;
+}
+
+.action-button {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
